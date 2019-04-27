@@ -48,22 +48,35 @@
 // window.Tabulator = require('tabulator-tables');
 // window._ = require('lodash');
 
-function importAll(r) { r.keys().forEach(r); }
-importAll(require.context('../src/javascripts/plugins', true));
-importAll(require.context('../src/javascripts/core', true));
-importAll(require.context('../src/javascripts/abs_classes', true));
-importAll(require.context('../src/javascripts/concerns', true));
-importAll(require.context('../src/javascripts/classes', true));
+// function importAll(r) { r.keys().forEach(r); }
+// importAll(require.context('../src/javascripts/plugins', true));
+// importAll(require.context('../src/javascripts/core', true));
+// importAll(require.context('../src/javascripts/abs_classes', true));
+// importAll(require.context('../src/javascripts/concerns', true));
+// importAll(require.context('../src/javascripts/classes', true));
+//
 
-Application.app = new Application.Core();
-Application.app.start();
+// // Rails.start();
+// Turbolinks.start({ cache: false });
 
-// Rails.start();
-Turbolinks.start({ cache: false });
 
-// console.log('Webpack start');
-// $(document).re
 
+function scrollToDownload() {
+    if ($('.section-download').length != 0) {
+        $("html, body").animate({
+            scrollTop: $('.section-download').offset().top
+        }, 1000);
+    }
+}
 $( document ).ready(function() {
     console.log( "ready!" );
+    // materialKit.initFormExtendedDatetimepickers();
+    // materialKit.initSliders();
+    // Application.app = new Application.Core();
+    // Application.app.start();
 });
+// Application.Core = class Core {
+//     constructor() {
+//         console.log('webpac');
+//     }
+// }
