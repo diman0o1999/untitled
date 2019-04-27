@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a249b1f1-cc94-43f6-858e-b4daa7966557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/advertisements/show.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/advertisements.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/advertisements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/advertisements/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/advertisements/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/users/sign_in.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/users/sign_in.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/users/sign_in.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="135">
               <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
@@ -88,27 +82,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/advertisements/show.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="e#73#784#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -256,12 +229,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556295201149</updated>
       <workItem from="1556295207102" duration="105000" />
-      <workItem from="1556295321644" duration="7769000" />
+      <workItem from="1556295321644" duration="8008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7874000" />
+    <option name="totallyTimeSpent" value="8113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -434,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users/sign_in.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="135">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
